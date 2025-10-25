@@ -21,12 +21,19 @@ int main()
         cout << value <<' ';
     }
     cout << '\n';
-    auto it = s.find(25);
-    if(it != s.end()){
-        cout << "Found" <<'\n';
-    }
-    else{
-        cout << "Not Found" <<'\n';
-    }
+    // auto it = s.find(25);
+    // if(it != s.end()){
+    //     cout << "Found" <<'\n';
+    // }
+    // else{
+    //     cout << "Not Found" <<'\n';
+    // }
+    // s.erase(4);
+    // for(auto value : s){
+    //     cout << value <<' ';
+    // }
+    // cout << '\n';
+    // cout << s.count(4) <<'\n';
+    
     return 0;
 }
