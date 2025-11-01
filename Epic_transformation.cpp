@@ -39,7 +39,6 @@ int main() {
             pq.push(y);
          }
       }
-
       int ans = 0;
       while (!pq.empty()) {
          ans += pq.top();
